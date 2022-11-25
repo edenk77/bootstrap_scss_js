@@ -1,0 +1,33 @@
+#resolution{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(251, 100, 0);
+    opacity: calc(70%);
+    height: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#resolution::after{
+    content: "XS < 576";
+}
+
+.truc{
+    background-color: pink;
+    min-height: 500px ;
+}
+
+.truc2{
+    border: 1px solid red;
+    background-color: rgb(193, 193, 193);
+}
+
+.container-fluid{
+    background-color: aquamarine;
+}
+
+.container{
+    background-color: bisque;
+    min-height: 500px;
+}
